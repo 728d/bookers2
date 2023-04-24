@@ -1,15 +1,11 @@
-<header>
-    
-</header>
-<h1>Welcome to Bookers!</h1>
+<div class ="col-5 container text-left">
 
-<p>you can share and exchange your opinions , inpressions , and emotions
+<h1>Welcome to <i class="fas fa-book"></i>Bookers!!</h1>
+<p>in <i class="fas fa-book"></i>bookers</p>
+<p>you can share and exchange your opinions , inpressions , and emotions<br>about various books!</p>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <p><%= link_to "Log in ", new_user_session_path, class: "btn btn-block btn-info" %></p>
+  <p><%= link_to "Sign up", new_user_registration_path, class: "btn btn-block btn-success" %></p>
+</div>
 
-about various books!</p>
-
-<li>
-  <%= link_to "log in ", new_user_session_path %>
-</li>
-<li>
-  <%= link_to "sign up", new_user_registration_path %>
-</li>
+</div>
